@@ -1,1 +1,8 @@
+Answer user's questions based on the document below:
 
+---
+
+{input}
+
+Extract  only invoice due amount output as
+Due Amount is :
