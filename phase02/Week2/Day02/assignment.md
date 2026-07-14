@@ -1,0 +1,26 @@
+**Home Assignment**
+- User story Review Agent --Customized UI
+Flow
+- **Jira connectivity** --Connect to Jira account 
+- **Fetch all the user stories from Jira** --API Calls
+- Select the Fetched user story
+- Parse
+- LLM for extracting acceptance criteria,summary and description
+- Prompt Template (Already in Langflow workflow)
+LLM 
+
+**Configuration file**
+1). Langflow API Details --url,flowID and key
+2). Jira API details --url,email,jira token
+3). LLM Model
+
+**Points to be considered**
+-- Only langflow API connected to html UI
+-- Give Workflow along with .md give Langflowworkflow
+-- Create a proper prompt with ICEPOT and proceed for step by step Implementation
+-- Provide Langflow api details and Jira api details in the prompt
+
+**Additional Assignment**
+
+In Single UI(html) --both Testcase generator chat and also User story\
+****reviewer Agent****
